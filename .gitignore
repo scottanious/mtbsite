@@ -1,0 +1,4 @@
+.hugo_build.lock
+themes/hugo-future-imperfect-slim/exampleSite
+resources/_gen
+public
