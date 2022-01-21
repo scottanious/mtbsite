@@ -8,4 +8,4 @@ tags = []
 title = "About Our team"
 
 +++
-Our Team is 
+The Spokane valley composite mountain biking team is centered around teaching kids to ride bikes. :)
