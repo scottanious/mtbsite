@@ -2,7 +2,6 @@
 author = "Scott C."
 date = 2022-01-01T20:00:00Z
 description = "Youth Mountain Bike Team"
-draft = true
 tags = []
 title = "Spokane Valley Moose"
 [menu.main]
