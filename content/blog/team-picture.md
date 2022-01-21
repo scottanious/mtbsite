@@ -11,6 +11,4 @@ src = "/img/teamphotow-i-d-e.jpg"
 stretch = ""
 
 +++
-![](/img/teamphotow-i-d-e.jpg)
-
 This is a picture we took last year of the team
