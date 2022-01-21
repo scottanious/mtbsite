@@ -2,7 +2,6 @@
 author = "Ben "
 date = 2022-01-21T08:00:00Z
 description = "A picture of the team from last year "
-draft = true
 tags = []
 title = "Team Picture"
 [[images]]
