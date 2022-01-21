@@ -6,8 +6,8 @@ draft = true
 tags = []
 title = "Team Picture"
 [[images]]
-alt = "Team pic"
-src = "/img/teamphoto.jpg"
+alt = "Team Photo"
+src = "/img/teamphotow-i-d-e.jpg"
 stretch = ""
 
 +++
