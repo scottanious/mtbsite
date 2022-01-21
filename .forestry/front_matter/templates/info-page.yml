@@ -31,4 +31,5 @@ fields:
     name: stretch
     label: stretch
 pages:
+- content/blog/team-picture.md
 - content/info-page.md
