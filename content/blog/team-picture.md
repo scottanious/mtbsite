@@ -8,6 +8,6 @@ title = "Team Picture"
 [[images]]
 alt = "Team pic"
 src = "/img/teamphoto.jpg"
-stretch = ""
+stretch = "10"
 
 +++
