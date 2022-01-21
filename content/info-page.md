@@ -4,9 +4,6 @@ date = 2022-01-01T20:00:00Z
 description = "Youth Mountain Bike Team"
 tags = []
 title = "Spokane Valley Moose"
-[menu.main]
-name = "Moose"
-weight = 6
 [[images]]
 alt = "Bike on trail"
 src = "/img/img_0543.JPG"
