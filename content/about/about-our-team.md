@@ -6,10 +6,8 @@ images = []
 tags = []
 title = "About Our team"
 [menu.main]
-identifier = "about"
-name = "About"
-pre = "<i class='far fa-id-card'></i>"
-weight = 2
+name = "About Our Team"
+weight = 5
 
 +++
 The Spokane valley composite mountain biking team is centered around teaching kids to ride bikes. :)
