@@ -5,6 +5,9 @@ description = "Information about the Moose"
 draft = true
 tags = []
 title = "Spokane Valley Moose"
+[menu.main]
+name = "Moose"
+weight = 6
 [[images]]
 alt = "Moose Logo"
 src = "/img/logo-dark-2x.png"
