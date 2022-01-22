@@ -11,7 +11,7 @@ src = "/img/img_0543.JPG"
 stretch = ""
 [[images]]
 alt = "Moose Logo"
-src = "/img/logo-dark-2x.png"
+src = "/img/logo.png"
 stretch = ""
 
 +++
