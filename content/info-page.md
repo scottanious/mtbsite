@@ -9,10 +9,6 @@ title = "Spokane Valley Moose"
 alt = "Bike on trail"
 src = "/img/img_0543.JPG"
 stretch = ""
-[[images]]
-alt = "Moose Logo"
-src = "/img/logo.png"
-stretch = ""
 
 +++
 We are a member team of the [**Washington Student Cycling League**](https://www.spokanemtb.org/#) in the Spokane Valley of Washington State. We love to see kids on bikes, making memories, and competing with friends!
