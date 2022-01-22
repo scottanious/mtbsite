@@ -8,8 +8,10 @@ pluralizeListTitles = false
 theme = "hugo-future-imperfect-slim"
 title = "Spokane Youth Mountain Biking"
 enableEmoji = "true"
+
 [markup.goldmark.renderer]
 unsafe = true
+
 [[menu.main]]
 identifier = "home"
 name = "Home"
@@ -61,16 +63,17 @@ socialShare = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"
 toc = true
 tocWords = 400
 viewMorePostsLink = "blog"
+mainSections = ["blog"]
 
 [params.footer]
 rssFooter = true
 socialFooter = true
 
 [params.header]
-dynamicTitles = true
-languageMenu = true
+dynamicTitles = false
+languageMenu = false
 navbarTitle = "Spokane Youth MTB"
-searchMenu = true
+searchMenu = false
 shareMenu = true
 
 [params.intro]
@@ -89,7 +92,7 @@ width = "250"
 [params.meta]
 author = "Moose, Bombers and more!"
 description = "Spokane Youth mountain biking information site.  Home page for the Spokane Valley Moose, Spokane Composite Bombers."
-favicon = false
+favicon = true
 faviconVersion = "1"
 iOSColor = "#ffffff"
 msColor = "#ffffff"
