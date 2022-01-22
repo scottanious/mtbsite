@@ -8,6 +8,12 @@ fields:
 - type: text
   name: description
   label: description
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  description: Choose which layout
 - type: text
   name: author
   label: author
