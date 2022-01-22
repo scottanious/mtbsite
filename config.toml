@@ -7,20 +7,20 @@ paginate = 3
 pluralizeListTitles = false
 theme = "hugo-future-imperfect-slim"
 title = "Spokane Youth Mountain Biking"
+enableEmoji = "true"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.main]]
-identifier = "contact"
-name = "Contact"
-pre = "<i class='far fa-envelope'></i>"
-url = "contact"
-weight = 5
+identifier = "home"
+name = "Home"
+pre = "<i class='fa fa-home'></i>"
+weight = 1
 [[menu.main]]
-identifier = "categories"
-name = "Categories"
-pre = "<i class='fas fa-sitemap'></i>"
-url = "categories"
-weight = 4
+identifier = "about"
+name = "About"
+pre = "<i class='far fa-newspaper'></i>"
+url = "about"
+weight = 2
 [[menu.main]]
 identifier = "blog"
 name = "Blog"
@@ -28,21 +28,24 @@ pre = "<i class='far fa-newspaper'></i>"
 url = "blog"
 weight = 3
 [[menu.main]]
-identifier = "about"
-name = "About"
-pre = "<i class='far fa-id-card'></i>"
-url = "about"
-weight = 2
+identifier = "registration"
+name = "Registration"
+pre = "<i class='fas fa-sitemap'></i>"
+url = "registration"
+weight = 4
 [[menu.main]]
-identifier = "home"
-name = "Home"
-pre = "<i class='fa fa-home'></i>"
-weight = 1
+identifier = "contact"
+name = "Contact"
+pre = "<i class='far fa-envelope'></i>"
+url = "contact"
+weight = 5
+
 [module.hugoVersion]
 extended = true
 min = "0.62.0"
 [outputs]
 home = ["html", "json", "rss"]
+
 [params]
 cssFiles = ["default"]
 enableCDN = false
@@ -58,15 +61,18 @@ socialShare = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"
 toc = true
 tocWords = 400
 viewMorePostsLink = "blog"
+
 [params.footer]
 rssFooter = true
 socialFooter = true
+
 [params.header]
 dynamicTitles = true
 languageMenu = true
 navbarTitle = "Spokane Youth MTB"
 searchMenu = true
 shareMenu = true
+
 [params.intro]
 alwaysOnHomepage = false
 header = "Spokane Youth MTB"
@@ -79,6 +85,7 @@ alt = "Spokane Youth MTB"
 shape = "rectangle"
 src = "img/logo.png"
 width = "250"
+
 [params.meta]
 author = "Moose, Bombers and more!"
 description = "Spokane Youth mountain biking information site.  Home page for the Spokane Valley Moose, Spokane Composite Bombers."
@@ -87,6 +94,7 @@ faviconVersion = "1"
 iOSColor = "#ffffff"
 msColor = "#ffffff"
 svg = true
+
 [params.sidebar]
 about = "Spokane Youth Mountain Biking"
 categories = false
@@ -109,6 +117,7 @@ issueTerm = "pathname"
 label = ""
 repo = ""
 theme = "github-light"
+
 [social]
 behance = ""
 bitbucket = ""
