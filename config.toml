@@ -41,6 +41,12 @@ name = "Contact"
 pre = "<i class='far fa-envelope'></i>"
 url = "contact"
 weight = 5
+[[menu.main]]
+identifier = "stories"
+name = "Stories"
+url = "stories/stories"
+pre = "<i class='fa fa-home'></i>"
+weight = 6
 
 [module.hugoVersion]
 extended = true
@@ -59,7 +65,7 @@ imageStretch = ""
 jsFiles = ["default"]
 readingTime = true
 removeBlur = false
-socialShare = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
+socialShare = ["facebook", "pinterest", "email"]
 toc = true
 tocWords = 400
 viewMorePostsLink = "blog"
