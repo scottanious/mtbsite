@@ -3,3 +3,5 @@ themes/hugo-future-imperfect-slim/exampleSite
 resources/_gen
 public
 hugo.exe
+hugo
+*.swp
