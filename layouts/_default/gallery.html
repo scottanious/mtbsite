@@ -1,0 +1,38 @@
+{{ define "main" }}
+<style>
+    .gallery {
+        max-width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    }
+    .galleryitem{
+        padding: 1rem;
+    }
+    .galleryimg {
+
+    }
+</style>
+  <article class="post">
+      {{ .Render "header" }}
+      <div id="socnet-share">
+        {{ partial "share-buttons" . }}
+      </div>
+    <div id="content">
+        <p>{{ .Content }}</p>
+        <div class="gallery">
+        {{ range .Params.images }}
+            <div class="galleryitem">
+                <!-- <h6>{{.title}}</h6> -->
+                <img src="{{ .imageurl }}" />
+                <p> {{.comment}}</p>
+            </div>
+        {{ end }}
+        </div>
+    </div>
+      <footer>
+        {{ .Render "stats" }}
+      </footer>
+  </article>
+{{ end }}

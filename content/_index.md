@@ -37,15 +37,15 @@ subtitle = "Welcome to the online home of the Spokane Valley Composite Mountain 
     title = "Team Stories"
     description = "Don't just take our word for it, hear about the team from those involved!"
 [[stories.story]]
-    name = "Head Coach"
+    name = "George D."
     text = "Getting to coach these guys is the highlight of my week.  It's so rewarding!"
     imageurl = "/img/main/mason_lyttle.jpg"
 [[stories.story]]
     name = "Ben C."
-    text = "I like bikes.  They're the best!"
+    text = "Love it, 10/10 would recomend. I realy enjoy riding my bike and this is a way to ride my bike with the community. This community is, in my opinion, the nicest in the world. Each and every rider is willing to help with whatever you need whether mechanical problems with your bike or emotional problems."
     imageurl = "/img/main/ben_currie.jpg"
 [[stories.story]]
     name = "Mason L."
-    text = "zoom... zoom zoom.  I go fast.  "
+    text = "I like the Spokane Valley Moose because the practices are super fun. The races are great because they are not that far away and the courses are always well planned out."
     imageurl = "/img/main/mason_lyttle.jpg"
 +++
