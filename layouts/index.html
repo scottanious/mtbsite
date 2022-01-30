@@ -1,42 +1,88 @@
 {{ define "main" }}
 <main aria-role="main">
-  <header class="homepage-header">
+  <!-- <header class="homepage-header">
     <h1>{{.Title}}</h1>
     {{ with .Params.subtitle }}
     <span class="subtitle">{{.}}</span>
     {{ end }}
-  </header>
+  </header> -->
   <div class="homepage-content">
     <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
     <style>
-      .homeblock {width: 100%; display: table; background-color: white; padding: 15px}
-      .homerow {display: table-row;}
-      .homecol {width: 50%; display: table-cell;} 
       .heroblock {
-        background-image: url('{{.Params.heroimageurl}}');
+        background-image: url('{{.Params.hero.imageurl}}');
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover; /* Resize the background image to cover the entire container */
+        min-height: 400px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
       }
+      .herotitle { 
+        margin: 5px; 
+        font-size: 300%; 
+        background-color: #CCCCCCcc; 
+        color: #333; 
+        width: 80%; 
+        text-align: center; 
+        padding: 20px;}
+      .herodesc { 
+        margin: 5px; 
+        font-size: 150%; 
+        color: #ccc; 
+        background-color: #333333cc; 
+        width: 70%; 
+        text-align: center; 
+        padding: 20px;
+      }
+
+      .homemain {
+        width: 100%; 
+        background-color: white; 
+        padding: 15px; 
+        display: flex; 
+        flex-direction: column;
+      }
+      article {
+        display: flex;
+        flex-direction: column; 
+        flex: 100%;
+      }
+      .homerow {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+      }
+      .homecol {
+        flex: 1;
+        align-items: center;
+      } 
     </style>
-    <div class="homeblock heroblock">
-      <h2>{{ .Params.herotitle}}</h2>
-    <p>{{.Content}}</p>
+    <header class="heroblock">
+      <div class="herotitle">{{ .Params.hero.title}}</div>
+      <div class="herodesc">{{ .Params.hero.desc}}</div>
+    </header>
+    <div class="homemain">
+      {{ partial "about" .Params.about }} <hr/>
+      {{ partial "races" .Params.races }} <hr/>
     </div>
+
     
-    {{ range .Params.blocks }}
+    <!-- {{ printf "%#v" .Params}} -->
+    <!-- {{ range .Params.blocks }}
       <div class="homeblock"> 
-        <h4>{{ .title }}</h4>
-        <div class="homerow">
-          <div class="homecol">
-            <p> {{ .description }} </p>
-          </div>
-          <div class="homecol">
-            <p> <img src="{{ .imageurl }}" /> </p>
-          </div>
+        <div class="homecol">
+          <h4>{{ .title }}</h4>
+          <p> {{ .description }} </p>
+        </div>
+        <div class="homecol">
+          <p> <img src="{{ .imageurl }}" /> </p>
         </div>
       </div>
-    {{ end }}
+    {{ end }} -->
   </div>
   <!-- <div>
     {{ range first 10 .Site.RegularPages }}
