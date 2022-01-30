@@ -4,3 +4,4 @@ resources/_gen
 public
 hugo.exe
 hugo
+*.swp

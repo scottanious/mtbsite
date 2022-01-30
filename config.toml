@@ -18,12 +18,6 @@ name = "Home"
 pre = "<i class='fa fa-home'></i>"
 weight = 1
 [[menu.main]]
-identifier = "about"
-name = "About"
-pre = "<i class='far fa-newspaper'></i>"
-url = "about"
-weight = 2
-[[menu.main]]
 identifier = "blog"
 name = "Blog"
 pre = "<i class='far fa-newspaper'></i>"
@@ -34,19 +28,13 @@ identifier = "registration"
 name = "Registration"
 pre = "<i class='fas fa-sitemap'></i>"
 url = "registration"
-weight = 4
+weight = 2
 [[menu.main]]
 identifier = "contact"
 name = "Contact"
 pre = "<i class='far fa-envelope'></i>"
 url = "contact"
 weight = 5
-[[menu.main]]
-identifier = "stories"
-name = "Stories"
-url = "stories/stories"
-pre = "<i class='fa fa-home'></i>"
-weight = 6
 
 [module.hugoVersion]
 extended = true

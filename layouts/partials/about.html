@@ -1,4 +1,11 @@
-<section>
-    <h4>{{.title}}</h4>
-    <p>{{.description}}</p>
-</section>
+<article>
+  <div class="homerow">
+    <div class="homecol homecolleft" >
+      <h4>{{.title}}</h4>
+      <p>{{.description | safeHTML}}</p>
+    </div>
+    <div class="homecol homecolleft">
+      <img src={{ .imageurl }} />
+    </div>
+  </div> 
+</article>

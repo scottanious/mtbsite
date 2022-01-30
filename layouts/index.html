@@ -59,30 +59,22 @@
       .homecol {
         flex: 1;
         align-items: center;
+        text-align: center;
       } 
+      .homerowimg { max-width: 400px; }
+      .homecolleft { text-align: left; padding: 20px; vertical-align:middle;}
     </style>
     <header class="heroblock">
       <div class="herotitle">{{ .Params.hero.title}}</div>
       <div class="herodesc">{{ .Params.hero.desc}}</div>
     </header>
     <div class="homemain">
-      {{ partial "about" .Params.about }} <hr/>
+      {{ partial "about" .Params.registration }} <hr/>
       {{ partial "races" .Params.races }} <hr/>
+      {{ partial "about" .Params.about }} <hr/>
+      {{ partial "stories" .Params.stories }} <hr/>
     </div>
-
-    
     <!-- {{ printf "%#v" .Params}} -->
-    <!-- {{ range .Params.blocks }}
-      <div class="homeblock"> 
-        <div class="homecol">
-          <h4>{{ .title }}</h4>
-          <p> {{ .description }} </p>
-        </div>
-        <div class="homecol">
-          <p> <img src="{{ .imageurl }}" /> </p>
-        </div>
-      </div>
-    {{ end }} -->
   </div>
   <!-- <div>
     {{ range first 10 .Site.RegularPages }}

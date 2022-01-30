@@ -1,0 +1,22 @@
+<style>
+  img.rounded {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
+</style>
+<article>
+  <h4>{{.title}}</h4>
+  <p>{{.description}}</p>
+
+  <div class="homerow" style="flex-direction: row;"> 
+      {{ range .story }}
+      <div class="homecol">
+          <h6>{{.name}}</h6>
+          <img class="rounded" src="{{ .imageurl }}" />
+          <p> {{.text}}</p>
+      </div>
+      {{ end }}
+  </div>
+</article>
