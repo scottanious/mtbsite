@@ -3,7 +3,6 @@ title = "About the Moose"
 description = "We're a Washington Student Cycling Leauge (WSCL) team called the Spokane Valley Moose. "
 author = "Scott"
 date = "2022-01-21"
-layout = "about"
 +++
 
 :mountain_bicyclist:
